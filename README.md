@@ -11,7 +11,10 @@
 ## Introduction
 
 This project provides a set of utilities for preprocessing images and perform letter level SIBI realtime recogniton.
-trained using [YOLO](https://github.com/ultralytics/ultralytics) V8, training type = Classsificartion
+trained using [YOLO](https://github.com/ultralytics/ultralytics) V8, training type = Classsification
+
+This project only cover 24 letter (A,B,C,D,E,F,G,H,I,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y)
+letter J and Z require motion detection cannot be implemeted in this project
 
 ## Usage
 
