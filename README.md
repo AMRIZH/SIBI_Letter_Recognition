@@ -24,22 +24,36 @@ trained using [YOLO](https://github.com/ultralytics/ultralytics) V8, training ty
 
 - [Python 3.x](https://www.python.org/)
 - gradio
-  '''pip install gradio'''
+  ```cli
+  pip install gradio
+  ```
 - onnx
-  '''pip install onnx'''
+  ```cli
+  pip install onnx
+  ```
 - ultralytics
-  '''pip install ultralytics'''
+  ```cli
+  pip install ultralytics
+  ```
 - Pytorch
-  '''pip install torch'''
+  ```cli
+  pip install torch
+  ```
 
 ### Advanced Requirements
 
 - opencv-python
-  '''pip install opencv-python'''
+  ```cli
+  pip install opencv-python
+  ```
 - onnxruntime
-  '''pip install onnxruntime'''
+  ```cli
+  pip install onnxruntime
+  ```
 - numpy
-  '''pip install numpy'''
+  ```cli
+  pip install numpy
+  ```
 
 ## Installation
 
