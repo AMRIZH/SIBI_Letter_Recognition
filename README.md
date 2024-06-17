@@ -27,10 +27,6 @@ trained using [YOLO](https://github.com/ultralytics/ultralytics) V8, training ty
   ```cli
   pip install gradio
   ```
-- onnx
-  ```cli
-  pip install onnx
-  ```
 - ultralytics
   ```cli
   pip install ultralytics
@@ -45,6 +41,10 @@ trained using [YOLO](https://github.com/ultralytics/ultralytics) V8, training ty
 - opencv-python
   ```cli
   pip install opencv-python
+  ```
+- onnx
+  ```cli
+  pip install onnx
   ```
 - onnxruntime
   ```cli
