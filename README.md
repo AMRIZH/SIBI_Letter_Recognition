@@ -1,4 +1,4 @@
-# Realtime Sign Language Recignition for SIBI (Sistem Isyarat Bahasa Indonesia)
+# Realtime Sign Language Recognition for SIBI (Sistem Isyarat Bahasa Indonesia)
 
 ## Table of Contents
 
