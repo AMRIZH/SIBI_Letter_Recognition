@@ -11,7 +11,7 @@
 ## Introduction
 
 This project provides a set of utilities for preprocessing images and perform letter level SIBI realtime recogniton.
-trained using [YOLO](https://github.com/ultralytics/ultralytics) V8, training type = Classsification
+trained using [YOLO](https://github.com/ultralytics/ultralytics) V11, training type = Classsification
 
 This project only cover 24 letter (A,B,C,D,E,F,G,H,I,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y)
 letter J and Z require motion detection cannot be implemeted in this project
@@ -19,48 +19,36 @@ letter J and Z require motion detection cannot be implemeted in this project
 ## Usage
 
 1. Install all requirements
-2. If you have basic Requirement --> Run yoloGradio.py
-3. If you have Advanced Requirement --> Run yoloOnnx.py
-4. Open local URL: http://127.0.0.1:7860 and ensure you have webcam on your device
+2. If want train new model --> Run training.py
+3. to start the program --> Run inference.py
+4. OpenCV interface will automatically open
+5. show sign language gesture to camera
 
 ## Requirements
 
-- [Python 3.x](https://www.python.org/)
-- gradio
-  ```cli
-  pip install gradio
-  ```
-- ultralytics
-  ```cli
-  pip install ultralytics
-  ```
-- Pytorch
-  ```cli
-  pip install torch
-  ```
-
-### Advanced Requirements
-
-- opencv-python
-  ```cli
-  pip install opencv-python
-  ```
-- onnx
-  ```cli
-  pip install onnx
-  ```
-- onnxruntime
-  ```cli
-  pip install onnxruntime
-  ```
-- numpy
-  ```cli
-  pip install numpy
-  ```
+- [Python 3.11](https://www.python.org/downloads/release/python-3119//)
+- [Ultraliytics YoloV11](https://github.com/ultralytics/ultralytics)
 
 ## Installation
 
-this prgoram is ready to go, just make sure you have all requirements fulfilled.
+- create virtual environment
+
+```shell
+python -3.11 -m venv venv
+```
+
+- activate environment
+
+```shell
+venv/Scripts/activate
+```
+
+- Install all dependencies
+
+```shell
+pip install -r requirements.txt
+
+```
 
 ## License
 
